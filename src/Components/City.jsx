@@ -1,9 +1,9 @@
 import React from 'react'
 import HeadElem from './HeadElem'
 
-function City() {
+function City({customClass}) {
   return (
-    <div className='py-20 mt-20 overflow-hidden '>
+    <div className={`py-20 mt-20 overflow-hidden ${customClass}`}>
       <div className='relative w-full'>
         <img className=' scale-150' src="https://fourlakes.in/assets/img/city/city-bg2.jpg" alt="" />
         <div className='absolute top-2'>

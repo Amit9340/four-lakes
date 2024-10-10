@@ -37,7 +37,7 @@ function App() {
       <div>
         <div className='h-[3.7rem] w-[3.7rem] rounded-full flex items-center justify-center text-4xl text-zinc-100 shadow-md shadow-[#B5B5B5] left-4 fixed top-[30rem] z-20 bg-[#13BFFD]'><IoCall/></div>
         <div className='h-[3.7rem] w-[3.7rem] rounded-full flex items-center justify-center text-4xl text-zinc-100 shadow-md shadow-[#B5B5B5] right-4 fixed top-[30rem] z-20 bg-[#25D366]'><FaWhatsapp/></div>
-        <div onClick={scrollToTop} className='arrow h-10 w-10 flex items-center justify-center text-lg text-zinc-100 right-4 fixed top-[34.5rem] z-20 bg-[#24416B]'><div className='childArrow'><MdOutlineKeyboardDoubleArrowUp/></div></div>
+        <div koonClick={scrollToTop} className='arrow h-10 w-10 flex items-center justify-center text-lg text-zinc-100 right-4 fixed top-[34.5rem] z-20 bg-[#24416B]'><div className='childArrow'><MdOutlineKeyboardDoubleArrowUp/></div></div>
       </div>
       <Router>
       <NavBar />

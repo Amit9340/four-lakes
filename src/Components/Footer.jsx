@@ -109,7 +109,7 @@ function Footer({customClass=''}) {
       <div className="relative w-[25%]">
         <h1 className="playfair-display text-[1.5rem] text-zinc-100 tracking-tighter mb-4">Quick Links</h1>
         <div>
-          {[{ic: <FiChevronsRight />, text:'Home', url:'/home'}, {ic: <FiChevronsRight />, text:'About Us',url:'/about'}, {ic: <FiChevronsRight />, text:'The Leopard Hill Restro', url:'/restro'}, {ic: <FiChevronsRight />, text:'The Royale Yards Resort', url:'/resort'}, {ic: <FiChevronsRight />, text:'Water Park', url:'/waterPark'}, {ic: <FiChevronsRight />, text:'Contact', url:'/contactUs'}, {ic: <FiChevronsRight />, text:'Terms and conditions', }, {ic: <FiChevronsRight />, text:'Privacy policy'}].map((item, index)=>(
+          {[{ic: <FiChevronsRight />, text:'Home', url:'/home'}, {ic: <FiChevronsRight />, text:'About Us',url:'/about'}, {ic: <FiChevronsRight />, text:'The Leopard Hill Restro', url:'/restro'}, {ic: <FiChevronsRight />, text:'The Royale Yards Resort', url:'/resort'}, {ic: <FiChevronsRight />, text:'Water Park', url:'/waterPark'}, {ic: <FiChevronsRight />, text:'Contact', url:'/contactUs'}, {ic: <FiChevronsRight />, text:'Terms and conditions', url:'/termsAndCondition'}, {ic: <FiChevronsRight />, text:'Privacy policy', url:'/privacyPolicy'}].map((item, index)=>(
             <div key={index} className="w-fit flex gap-1 cursor-pointer hover:text-[#CC8C18] group" onMouseEnter={() => handleMouseEnter(index)} onMouseLeave={() => handleMouseLeave(index)}>
               <div className="relative top-3" ref={el => iconRefs.current[index] = el}>{item.ic}</div>
               <a href={item.url}>

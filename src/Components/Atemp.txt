@@ -1,1 +1,14 @@
  {/* <img className=' h-14 w-14 opacity-60 group-hover:opacity-100 group-hover:animate-slideDownShort' src={item.img} alt="" /> */}
+
+//NavBAr.jsx Data
+ const data = [
+    { text: "Home", path: "/home", Component: <Homes /> },
+    { text: "About Us", path: "/about", Component: <AboutUs /> },
+    { text: "Water Park", path: "/waterPark", Component: <WaterPark /> },
+    { text: "Hotel", path: "/hotel", Component: <Hotel /> },
+    { text: "Resort", path: "/resort", Component: <Resort /> },
+    { text: "Restro", path: "/restro", Component: <Restro /> },
+    { text: "Gallery", path: "/gallery", Component: <Gallery /> },
+    { text: "Contact Us", path: "/contactUs", Component: <Contact /> },
+    { path: "/termsAndCondition", Component: <TermsAndCondition /> }
+  ];

@@ -10,17 +10,21 @@ import Resort from "../Resort/Resort";
 import Restro from "../Restro/Restro";
 import Gallery from "../Gallery/Gallery";
 import Contact from "../Contact/Contact";
+import TermsAndCondition from "../termsAndCondition/TermsAndCondition";
+import PrivacyPolicy from '../privacyPolicy/PrivacyPolicy';
 
 function NavBar() {
   const data = [
-    { text: "Home", path: "/home", Component: <Homes /> },
+    { text: "Home", path: "/home.jsx", Component: <Homes /> },
     { text: "About Us", path: "/about", Component: <AboutUs /> },
     { text: "Water Park", path: "/waterPark", Component: <WaterPark /> },
     { text: "Hotel", path: "/hotel", Component: <Hotel /> },
     { text: "Resort", path: "/resort", Component: <Resort /> },
     { text: "Restro", path: "/restro", Component: <Restro /> },
     { text: "Gallery", path: "/gallery", Component: <Gallery /> },
-    { text: "Contact Us", path: "/contactUs", Component: <Contact /> }
+    { text: "Contact Us", path: "/contactUs", Component: <Contact /> },
+    { path: "/termsAndCondition", Component: <TermsAndCondition /> },
+      { path: "/privacyPolicy", Component: <PrivacyPolicy /> }
   ];
   return (
       <div
@@ -41,7 +45,8 @@ function NavBar() {
           style={(e)=>{
       return {
         color : e.isActive ? "#CC8C18" : "",
-        }}} to={item.path}> {item.text} </NavLink>
+        }}}
+        to={item.path}> {item.text} </NavLink>
         ))}
         </div>
       </div>

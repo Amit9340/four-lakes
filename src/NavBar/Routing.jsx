@@ -8,18 +8,22 @@ import Resort from "../Resort/Resort";
 import Restro from "../Restro/Restro";
 import Gallery from "../Gallery/Gallery";
 import Contact from "../Contact/Contact";
+import TermsAndCondition from '../termsAndCondition/TermsAndCondition';
+import PrivacyPolicy from '../privacyPolicy/PrivacyPolicy';
 
 
 function Routing() {
     const data = [
-      { text: "/", path: "/home", Component: <Homes /> },
+      { text: "/", path: "/home.jsx", Component: <Homes /> },
       { text: "About Us", path: "/about", Component: <About /> },
       { text: "Water Park", path: "/waterPark", Component: <WaterPark /> },
       { text: "Hotel", path: "/hotel", Component: <Hotel /> },
       { text: "Resort", path: "/resort", Component: <Resort /> },
       { text: "Restro", path: "/restro", Component: <Restro /> },
       { text: "Gallery", path: "/gallery", Component: <Gallery /> },
-      { text: "Contact Us", path: "/contactUs", Component: <Contact /> }
+      { text: "Contact Us", path: "/contactUs", Component: <Contact /> },
+      { path: "/termsAndCondition", Component: <TermsAndCondition /> },
+      { path: "/privacyPolicy", Component: <PrivacyPolicy /> }
     ];
   return (
       <Routes>
