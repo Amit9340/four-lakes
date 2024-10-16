@@ -26,9 +26,10 @@ function Restro() {
       <FrontPage
         imgUrl="https://fourlakes.in/assets/images/leopard_restro/restro-2.jpg"
         firstHead="The Leopard Hill Restro"
-        customClassImg="h-[120vh] -top-[14.6rem]"
-        customClassDiv="h-[63.5vh]"
-        customClassFirstHead="relative top-12"
+        customClassDiv="lg:h-[63.5vh] h-[93rem]"
+        customClassImg="lg:h-[125vh] h-[90rem] scale-[1.65] lg:-top-[14.5rem] top-[14rem]"
+        customClassFirstHead="relative lg:top-11 top-44 lg:text-[2.4rem] text-[9rem]"
+        customClassthirdHead='hidden'
       />
 
       <ForLakesWaterPark
@@ -38,8 +39,9 @@ function Restro() {
         url='/contactUs'
         title='Contact Us'
         img="https://fourlakes.in/assets/images/leopard_restro/restro-1.jpg"
+        customClass='lg:h-[115vh] h-[585vh]'
         customClassHead1="text-[0.9rem]"
-        customClassHead2="text-[1.9rem] w-[101%]"
+        customClassHead2="text-[5rem]"
         customClassImg="relative top-24"
       />
 

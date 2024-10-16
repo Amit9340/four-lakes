@@ -53,9 +53,11 @@ function Marquees() {
       ];
   return (
     
-    <div className='h-screen overflow-hidden'>
-      <HeadElem title1='Restaurants' title2='The area we cover under Four' title3='Lakes' />
-      <div className='flex w-[267%] mt-12'>
+    <div className='lg:h-screen h-[110rem] overflow-hidden'>
+      <div className='lg:w-[42%] lg:mx-auto  flex flex-col items-center justify-center'>
+      <HeadElem title1='Restaurants' title2='The area we cover under Four Lakes' />
+      </div>
+      <div className='flex lg:w-[267%] w-[831%] lg:mt-12 mt-32'>
       {data.map((item, index)=>(<Marquee data={item} key={index} />))}
       </div>
     </div>

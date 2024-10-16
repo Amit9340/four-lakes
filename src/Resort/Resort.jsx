@@ -25,9 +25,10 @@ function Resort() {
       <FrontPage
         imgUrl="https://fourlakes.in/assets/images/royal_yard/resort-1.jpg"
         firstHead="The Royal Yard Resort"
-        customClassImg="h-[120vh] -top-[14.6rem]"
-        customClassDiv="h-[63.5vh]"
-        customClassFirstHead="relative top-12"
+        customClassDiv="lg:h-[63.5vh] h-[81rem]"
+        customClassImg="lg:h-[125vh] h-[63rem] scale-[1.45] lg:-top-[14.5rem] top-[7.5rem]"
+        customClassFirstHead="relative lg:top-11 top-44 lg:text-[2.41rem] text-[7rem]"
+        customClassthirdHead='hidden'
       />
 
       <ForLakesWaterPark
@@ -36,6 +37,7 @@ function Resort() {
         para={Para4}
         title='Discover More'
         url='/About'
+        customClass='lg:h-[115vh] h-[545vh]'
         customClassBtn='w-[12rem]'
         img="https://fourlakes.in/assets/images/royal_yard/royal_yard-2.jpg"
         customClassHead1="text-[0.9rem]"

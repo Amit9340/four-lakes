@@ -28,7 +28,7 @@ function About() {
         img="https://fourlakes.in/assets/images/about_home.jpg"
         customClassImg="relative top-24"
       />
-      <Featured customClass="relative mt-0" />
+      <Featured customClass="relative lg:mt-0 mt-28" />
       <Galleries />
       <OurGallery />
       <City />

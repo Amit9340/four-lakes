@@ -25,9 +25,10 @@ function WaterPark() {
       <FrontPage
         imgUrl="https://fourlakes.in/assets/images/waterpark/water_park-4.jpg"
         firstHead="Water Park"
-        customClassImg="h-[150vh] -top-[19.2rem]"
-        customClassDiv="h-[63.5vh]"
-        customClassFirstHead="relative top-12"
+        customClassImg="lg:h-[145vh] h-[156vh] scale-[1.04] lg:-top-[18.04rem] -top-[3rem]"
+        customClassDiv="lg:h-[62vh] h-[152vh]"
+        customClassFirstHead="relative lg:top-12 top-36"
+        customClassthirdHead='hidden'
       />
 
       <ForLakesWaterPark
@@ -36,6 +37,7 @@ function WaterPark() {
         para={Para2}
         title='Discover More'
         url="/About"
+        customClass='h-[580vh]'
         customClassBtn="w-[12rem]"
         img="https://fourlakes.in/assets/images/about_home.jpg"
         customClassHead1="text-[1rem]"

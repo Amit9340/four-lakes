@@ -23,28 +23,28 @@ function Testimonials({customClass=''}) {
 
     ]
   return (
-    <div className={`h-[110%] max-w-screen-xl mx-auto ${customClass}`}>
+    <div className={`h-[110%] lg:max-w-screen-xl lg:mx-auto w-[400vw] ${customClass}`}>
       <HeadElem title1="Testimonials" title2="What customers say" />
 
-      <div className='relative h-[80%] max-w-screen-lg mx-auto flex justify-between mt-14'>
+      <div className='relative h-[80%] lg:max-w-screen-lg lg:mx-auto w-[400vw] flex lg:gap-10 lg:flex-row flex-col gap-32 justify-between items-center mt-14'>
         {data.map((item, index)=>(
-            <div key={index} className='box'>
-            <img className='h-[26.5rem] w-[20rem]' src={item.img3} alt="" />
-            <div className='flex flex-col gap-5 w-[30%] absolute top-0 p-6'>
-                <div className='flex text-[#F4A708] text-lg gap-1'>
+            <div key={index} className='box flex'>
+            <img className='lg:h-[26.5rem] lg:w-[20rem] h-[108rem] w-[108rem]' src={item.img3} alt="" />
+            <div className='lg:h-[26.5rem] lg:w-[20rem] h-[90rem] w-[85rem] flex flex-col justify-between items-center gap-5 relative top-0 p-5 lg:-ml-[18.7rem] lg:mt-0 -ml-[92rem] mt-32'>
+                <div className='flex text-[#F4A708] lg:text-lg text-[5rem] gap-1'>
                   {item.imgStar1}
                   {item.imgStar2}
                   {item.imgStar3}
                   {item.imgStar4}
                   {item.imgStar5}
                 </div>
-                <h1 className='playfair-display text-[1.3rem] tracking-tight font-extrabold text-[#24416B]'>{item.text1}</h1>
-                <p className='text-[#756d6e] leading-8 tracking-wide text-[0.78rem]'>{item.para1}</p>
+                <h1 className='playfair-display lg:text-[1.3rem] text-[6rem] tracking-tight font-extrabold text-[#24416B]'>{item.text1}</h1>
+                <p className='text-[#756d6e] lg:leading-8 lg:tracking-wide lg:text-[0.78rem] text-[4rem]'>{item.para1}</p>
                 <div className='flex gap-8'>
-                    <img className='h-12 w-12 rounded-full' src={item.img2} alt="" />
+                    <img className='lg:h-12 lg:w-12 h-52 w-52 rounded-full' src={item.img2} alt="" />
                     <div>
-                    <h1 className='playfair-display text-[1.3rem] tracking-tight font-extrabold text-[#24416B]'>{item.text2}</h1>
-                    <p className='text-[#756d6e] leading-7 text-[0.932rem]'>{item.para2}</p>
+                    <h1 className='playfair-display lg:text-[1.3rem] text-[5rem] tracking-tight font-extrabold text-[#24416B]'>{item.text2}</h1>
+                    <p className='text-[#756d6e] lg:leading-7 lg:text-[0.932rem] text-[4rem]'>{item.para2}</p>
                     </div>
                 </div>
             </div>

@@ -25,9 +25,10 @@ function Hotel() {
       <FrontPage
         firstHead="Hotel (Comming Soon)"
         imgUrl="https://fourlakes.in/assets/images/hotel/hotel-1.jpg"
-        customClassDiv="h-[63.5vh]"
-        customClassImg="h-[145vh] -top-[18.3rem]"
-        customClassFirstHead="relative top-10"
+        customClassDiv="lg:h-[63.5vh] h-[81rem]"
+        customClassImg="lg:h-[125vh] h-[63rem] lg:scale-y-[1.2] lg:-top-[14.5rem] top-[6rem]"
+        customClassFirstHead="relative lg:top-11 top-44 lg:text-[2.4rem] text-[5rem]"
+        customClassthirdHead='hidden'
       />
 
       <ForLakesWaterPark
@@ -36,6 +37,7 @@ function Hotel() {
         para={Para3}
         title='Discover More'
         url="/About"
+        customClass='lg:h-[115vh] h-[530vh]'
         customClassBtn="w-[12rem]"
         img="https://fourlakes.in/assets/images/hotel/hotel-2.jpg"
         customClassHead2="text-[2rem]"

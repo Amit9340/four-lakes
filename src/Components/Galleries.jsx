@@ -21,14 +21,14 @@ function Galleries() {
 
   return (
     
-    <div className='relative mt-[9rem]'>
-        <div className='flex flex-col items-center mb-10'>
+    <div className='relative lg:mt-[10rem] mt-[28rem]'>
+        <div className='flex flex-col items-center lg:mb-10 mb-32'>
             <HeadElem title1='Gallery' title2='Explore different Venus' />
         </div>
 
-        <div className='absolute z-10 top-32 w-[45rem] h-[38rem] mx-[33rem]'>
+        <div className='absolute z-10 lg:top-32 top-[72rem] lg:w-[45rem] lg:h-[38rem] h-[80rem] w-[69rem] lg:mx-[33rem] mx-[35rem]'>
         {mainImage && (
-          <img className='h-[38rem] w-full object-cover' src={mainImage.url} alt={mainImage.text} />
+          <img className='lg:h-[38rem] lg:w-full h-[80rem] w-[69rem] lg:object-cover object-fill' src={mainImage.url} alt={mainImage.text} />
         )}
       </div>
       

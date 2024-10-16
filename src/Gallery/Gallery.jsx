@@ -8,7 +8,7 @@ function Gallery() {
     <div className='absolute top-24'>
       <FrontPage url='/Home' imgUrl='https://fourlakes.in/assets//images/slider/slider1.jpg' firstHead='Gallery' secondHead='Home' thirdHead='Gallery' />
 
-      <OurGallery customClass1='relative -top-16'/>
+      <OurGallery customClass1='relative lg:-top-16 -top-48'/>
       
       <Footer/>
     </div>
